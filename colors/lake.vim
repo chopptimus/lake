@@ -155,13 +155,13 @@ syn match Visual       "\"__Visual.*"
 "__DiffText             actual changes on this line
 "__DiffDelete           -line removed from file.orig
 "__Folded               +--- 1 line : Folded line ---
-"__Function             function sblah()
+"__Function             function lake()
 "__Identifier           Never ran into that actually...
 "__IncSearch            Next search term
 "__NonText              This is not a text, move on
 "__Normal               Typical text goes like this
 "__Pmenu                Currently selected menu item
-"__PreProc              #define SHBLAH true
+"__PreProc              #define LAKE true
 "__Search               This is what you're searching for
 "__Special              true false NULL SIGTERM
 "__SpecialKey           Never ran into that either
