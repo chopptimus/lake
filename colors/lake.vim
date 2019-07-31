@@ -100,6 +100,8 @@ call s:h('SpellBad', s:bright_red, s:bg, 'none')
 call s:h('clojureKeyword', s:fg, s:bg, 'none')
 call s:h('clojureDefine', s:blue, s:bg, 'none')
 call s:h('clojureSpecial', s:blue, s:bg, 'none')
+call s:h('clojureMacro', s:blue, s:bg, 'none')
+call s:h('clojureCond', s:blue, s:bg, 'none')
 
 call s:h('pythonBuiltin', s:bright_blue, s:bg, '')
 
