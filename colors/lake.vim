@@ -35,13 +35,13 @@ let s:gray2 = '#608190'
 let s:red = '#c27171'
 let s:green = '#63a690'
 let s:yellow = '#a6a663'
-let s:blue = '#719bc2'
+let s:blue = '#6385a6 '
 let s:orange = '#bf9c86'
 let s:cyan = '#63a39e'
 let s:bright_red = s:red
 let s:bright_green = '#6dc2a3'
 let s:bright_yellow = '#bfc271'
-let s:bright_blue = s:blue
+let s:bright_blue = '#719bc2'
 let s:bright_orange = s:orange
 let s:bright_cyan = '#71c2af'
 
@@ -61,12 +61,12 @@ endfun
 call s:h('ColorColumn', s:bg, s:yellow, 'none')
 call s:h('Comment', s:gray2, s:bg, 'none')
 call s:h('Constant', s:orange, s:bg, 'none')
-call s:h('Cursor', '', s:fg, 'none') 
+call s:h('Cursor', '', s:fg, 'none')
 call s:h('DiffAdd', s:green, s:bg, 'none')
 call s:h('DiffChange', s:bg, s:bg, 'none')
 call s:h('DiffDelete', s:fg, s:red, 'none')
-call s:h('DiffText', s:fg, s:blue, 'none')
-call s:h('Directory', s:blue, s:bg, 'none')
+call s:h('DiffText', s:fg, s:bright_blue, 'none')
+call s:h('Directory', s:bright_blue, s:bg, 'none')
 call s:h('Error', s:bg, s:red, 'none')
 call s:h('ErrorMsg', s:red, s:bg, 'none')
 call s:h('FoldColumn', s:bg, s:bg, 'none')
@@ -82,13 +82,13 @@ call s:h('PreProc', s:cyan, s:bg, 'none')
 call s:h('Search', s:bg, s:orange, 'none')
 call s:h('Special', s:green, s:bg, 'none')
 call s:h('SpecialKey', s:bg, s:bg, 'none')
-call s:h('Statement', s:blue, s:bg, 'none')
+call s:h('Statement', s:bright_blue, s:bg, 'none')
 call s:h('StatusLine', s:fg, s:gray0, 'none')
 call s:h('StatusLineNC', s:fg, s:bg, 'none')
 call s:h('String', s:green, s:bg, 'none')
 call s:h('TabLineSel', s:fg, s:bg, 'none')
 call s:h('Todo', s:fg, s:red, 'none')
-call s:h('Type', s:blue, s:bg, 'none')
+call s:h('Type', s:bright_blue, s:bg, 'none')
 call s:h('Underlined', s:fg, s:bg, 'underline')
 call s:h('VertSplit', s:gray1, s:bg, 'none')
 call s:h('Visual', s:bg, s:gray2, 'none')
@@ -98,13 +98,13 @@ call s:h('WildMenu', s:bright_cyan, s:gray1, 'none')
 call s:h('Error', s:bright_red, s:bg, 'bold')
 call s:h('SignColumn', '', s:bg, 'none')
 call s:h('SpellBad', s:bright_red, s:bg, 'none')
-call s:h('ALEWarningSign', s:blue, s:bg, 'bold')
+call s:h('ALEWarningSign', s:bright_blue, s:bg, 'bold')
 
-call s:h('clojureKeyword', s:fg, s:bg, 'none')
-call s:h('clojureDefine', s:blue, s:bg, 'none')
-call s:h('clojureSpecial', s:blue, s:bg, 'none')
-call s:h('clojureMacro', s:blue, s:bg, 'none')
-call s:h('clojureCond', s:blue, s:bg, 'none')
+call s:h('clojureKeyword', s:blue, s:bg, 'none')
+call s:h('clojureDefine', s:bright_blue, s:bg, 'none')
+call s:h('clojureSpecial', s:bright_blue, s:bg, 'none')
+call s:h('clojureMacro', s:bright_blue, s:bg, 'none')
+call s:h('clojureCond', s:bright_blue, s:bg, 'none')
 
 call s:h('pythonBuiltin', s:bright_blue, s:bg, '')
 
