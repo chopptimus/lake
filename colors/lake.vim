@@ -94,6 +94,7 @@ call s:h('VertSplit', s:gray1, s:bg, 'none')
 call s:h('Visual', s:bg, s:gray2, 'none')
 call s:h('WarningMsg', s:yellow, s:bg, 'none')
 call s:h('WildMenu', s:bright_cyan, s:gray1, 'none')
+call s:h('MatchParen', s:bg, s:cyan, 'none')
 
 call s:h('Error', s:bright_red, s:bg, 'bold')
 call s:h('SignColumn', '', s:bg, 'none')
