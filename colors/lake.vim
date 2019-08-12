@@ -101,6 +101,7 @@ call s:h('SignColumn', '', s:bg, 'none')
 call s:h('SpellBad', s:bright_red, s:bg, 'none')
 call s:h('ALEWarningSign', s:bright_blue, s:bg, 'bold')
 
+call s:h('clojureParen', s:fg, s:bg, 'none')
 call s:h('clojureKeyword', s:blue, s:bg, 'none')
 call s:h('clojureDefine', s:bright_blue, s:bg, 'none')
 call s:h('clojureSpecial', s:bright_blue, s:bg, 'none')
