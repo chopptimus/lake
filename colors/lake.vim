@@ -119,6 +119,7 @@ highlight! link LineNr          NonText
 highlight! link MoreMsg         Normal
 highlight! link Question        DiffChange
 highlight! link VimHiGroup      VimGroup
+highlight! link CursorLine      Visual
 
 " Test the actual colorscheme
 syn match Comment      "\"__Comment.*"
