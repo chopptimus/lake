@@ -114,13 +114,10 @@ call s:h('pythonBuiltin', s:bright_blue, s:bg, '')
 highlight! link diffAdded       DiffAdd
 highlight! link diffRemoved     DiffDelete
 highlight! link diffChanged     DiffChange
-" highlight! link StatusLine      StatusLineNC
 highlight! link Title           Normal
 highlight! link LineNr          NonText
 highlight! link MoreMsg         Normal
 highlight! link Question        DiffChange
-"highlight! link TabLine         StatusLineNC
-"highlight! link TabLineFill     StatusLineNC
 highlight! link VimHiGroup      VimGroup
 
 " Test the actual colorscheme
