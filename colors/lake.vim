@@ -29,9 +29,10 @@ let g:colors_name = 'lake'
 
 let s:fg = '#a9b6c1'
 let s:bg = '#22333a'
-let s:gray0 = '#294450'
-let s:gray1 = '#405f6d'
-let s:gray2 = '#608190'
+let s:gray0 = '#23373f'
+let s:gray1 = '#294450'
+let s:gray2 = '#405f6d'
+let s:gray3 = '#608190'
 let s:red = '#c27171'
 let s:green = '#63a690'
 let s:yellow = '#a6a663'
@@ -59,41 +60,41 @@ endfun
 
 " Actual colours and styles.
 call s:h('ColorColumn', s:bg, s:yellow, 'none')
-call s:h('Comment', s:gray2, s:bg, 'none')
+call s:h('Comment', s:gray3, s:bg, 'none')
 call s:h('Constant', s:orange, s:bg, 'none')
 call s:h('Cursor', '', s:fg, 'none')
 call s:h('DiffAdd', s:green, s:bg, 'none')
 call s:h('DiffChange', s:fg, s:bg, 'none')
-call s:h('DiffDelete', s:fg, s:red, 'none')
-call s:h('DiffText', s:fg, s:bright_blue, 'none')
+call s:h('DiffDelete', s:bg, s:red, 'none')
+call s:h('DiffText', s:bg, s:bright_blue, 'none')
 call s:h('Directory', s:bright_blue, s:bg, 'none')
 call s:h('Error', s:bg, s:red, 'none')
 call s:h('ErrorMsg', s:red, s:bg, 'none')
 call s:h('FoldColumn', s:bg, s:bg, 'none')
-call s:h('Folded', s:gray2, s:bg, 'none')
+call s:h('Folded', s:gray3, s:bg, 'none')
 call s:h('Function', s:fg, s:bg, 'none')
 call s:h('Identifier', s:fg, s:bg, 'none')
 call s:h('IncSearch', s:bg, s:fg, 'none')
-call s:h('NonText', s:gray1, s:bg, 'none')
+call s:h('NonText', s:gray2, s:bg, 'none')
 call s:h('Normal', s:fg, s:bg, 'none')
 call s:h('Pmenu', s:bg, s:fg, 'none')
-call s:h('PMenuSel', s:fg, s:gray0, 'none')
+call s:h('PMenuSel', s:fg, s:gray1, 'none')
 call s:h('PreProc', s:cyan, s:bg, 'none')
 call s:h('Search', s:bg, s:green,'none')
 call s:h('Special', s:green, s:bg, 'none')
 call s:h('SpecialKey', s:bg, s:bg, 'none')
 call s:h('Statement', s:bright_blue, s:bg, 'none')
-call s:h('StatusLine', s:fg, s:gray0, 'none')
-call s:h('StatusLineNC', s:fg, s:bg, 'none')
+call s:h('StatusLine', s:fg, s:gray1, 'none')
+call s:h('StatusLineNC', s:fg, s:gray0, 'none')
 call s:h('String', s:green, s:bg, 'none')
 call s:h('TabLineSel', s:fg, s:bg, 'none')
-call s:h('Todo', s:fg, s:red, 'none')
+call s:h('Todo', s:bg, s:red, 'none')
 call s:h('Type', s:bright_blue, s:bg, 'none')
 call s:h('Underlined', s:fg, s:bg, 'underline')
-call s:h('VertSplit', s:gray1, s:bg, 'none')
+call s:h('VertSplit', s:gray2, s:bg, 'none')
 call s:h('Visual', s:bg, s:blue, 'none')
 call s:h('WarningMsg', s:yellow, s:bg, 'none')
-call s:h('WildMenu', s:bright_cyan, s:gray1, 'none')
+call s:h('WildMenu', s:bright_cyan, s:gray2, 'none')
 call s:h('MatchParen', s:bg, s:cyan, 'none')
 
 call s:h('Error', s:bright_red, s:bg, 'bold')
