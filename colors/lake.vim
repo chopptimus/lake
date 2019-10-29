@@ -120,6 +120,7 @@ highlight! link MoreMsg         Normal
 highlight! link Question        DiffChange
 highlight! link VimHiGroup      VimGroup
 highlight! link CursorLine      Visual
+highlight! link SpellCap        Constant
 
 " Test the actual colorscheme
 syn match Comment      "\"__Comment.*"
