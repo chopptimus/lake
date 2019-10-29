@@ -29,7 +29,7 @@ let g:colors_name = 'lake'
 
 let s:fg = '#a9b6c1'
 let s:bg = '#22333a'
-let s:gray0 = '#23373f'
+let s:gray0 = '#253b45'
 let s:gray1 = '#294450'
 let s:gray2 = '#405f6d'
 let s:gray3 = '#608190'
