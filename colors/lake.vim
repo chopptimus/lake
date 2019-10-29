@@ -97,10 +97,9 @@ call s:h('WarningMsg', s:yellow, s:bg, 'none')
 call s:h('WildMenu', s:bright_cyan, s:gray2, 'none')
 call s:h('MatchParen', s:bg, s:cyan, 'none')
 
-call s:h('Error', s:bright_red, s:bg, 'bold')
-call s:h('SignColumn', '', s:bg, 'none')
+call s:h('SignColumn', '', s:gray1, 'none')
 call s:h('SpellBad', s:bright_red, s:bg, 'none')
-call s:h('ALEWarningSign', s:bright_blue, s:bg, 'bold')
+call s:h('ALEWarningSign', s:bright_blue, s:gray1, 'bold')
 
 call s:h('clojureParen', s:fg, s:bg, 'none')
 call s:h('clojureKeyword', s:blue, s:bg, 'none')
