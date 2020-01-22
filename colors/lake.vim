@@ -110,6 +110,8 @@ call s:h('clojureCond', s:bright_blue, s:bg, 'none')
 
 call s:h('pythonBuiltin', s:bright_blue, s:bg, '')
 
+call s:h('lispParen', s:fg, s:bg, '')
+
 " General highlighting group links.
 highlight! link diffAdded       DiffAdd
 highlight! link diffRemoved     DiffDelete
