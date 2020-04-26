@@ -119,7 +119,7 @@ highlight! link diffChanged     DiffChange
 highlight! link Title           Normal
 highlight! link LineNr          NonText
 highlight! link MoreMsg         Normal
-highlight! link Question        DiffChange
+highlight! link Question        Normal
 highlight! link VimHiGroup      VimGroup
 highlight! link CursorLine      Visual
 highlight! link SpellCap        Constant
